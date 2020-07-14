@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="210" height="210" viewBox="0 0 210 210">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #000;
+        stroke-width: 1px;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M44.012,105.93l8.008-13.87,110.968,64.061-8.008,13.87Z"/>
+  <path id="Shape_1_copy" data-name="Shape 1 copy" class="cls-1" d="M52.02,115.94l-8.008-13.87L154.98,38.009l8.008,13.869Z"/>
+</svg>

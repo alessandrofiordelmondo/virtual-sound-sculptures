@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "gallery-audio-database": {
+      "hosting": {
+        "app": [
+          "gallery-audio-database"
+        ]
+      }
+    }
+  }
+}

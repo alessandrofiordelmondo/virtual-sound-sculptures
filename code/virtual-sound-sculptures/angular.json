@@ -39,7 +39,11 @@
                 "input": "src/global.scss"
               }
             ],
-            "scripts": []
+            "scripts": [
+              "./jslib/pedometer.js",
+              "./jslib/convex-hull.js",
+              "./jslib/utility.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -99,7 +103,11 @@
             "tsConfig": "tsconfig.spec.json",
             "karmaConfig": "karma.conf.js",
             "styles": [],
-            "scripts": [],
+            "scripts": [
+              "./jslib/pedometer.js",
+              "./jslib/convex-hull.js",
+              "./jslib/utility.js"
+            ],
             "assets": [
               {
                 "glob": "favicon.ico",
@@ -128,7 +136,9 @@
               "tsconfig.spec.json",
               "e2e/tsconfig.json"
             ],
-            "exclude": ["**/node_modules/**"]
+            "exclude": [
+              "**/node_modules/**"
+            ]
           }
         },
         "e2e": {
@@ -169,6 +179,10 @@
               "devServerTarget": "app:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
     }

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="208" height="208" viewBox="0 0 208 208">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        stroke: #000;
+        stroke-width: 1px;
+      }
+
+      .cls-1 {
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M168,64V80H40V64H168Z"/>
+  <path id="Shape_1_copy" data-name="Shape 1 copy" class="cls-1" d="M168,128v16H40V128H168Z"/>
+  <circle class="cls-2" cx="104" cy="104" r="24"/>
+</svg>

@@ -1,3 +1,35 @@
 <ion-app>
-  <ion-router-outlet></ion-router-outlet>
+
+  <ion-menu side="start" >
+
+    <ion-header>
+
+      <ion-toolbar color="primary">
+      </ion-toolbar>
+    </ion-header>
+
+    <ion-content>
+      <ion-list >
+        <ion-menu-toggle>
+          <ion-item color="primary">
+            <ion-icon src="./assets/img/vss-icons/vss-list.svg" slot="start"></ion-icon>
+            <ion-label routerLink="/sculptures-list"> Sculptures List </ion-label>
+          </ion-item>
+        </ion-menu-toggle>
+        <ion-menu-toggle>
+          <ion-item color="primary">
+            <ion-icon src="./assets/img/vss-icons/vss-settings.svg" slot="start"></ion-icon>
+            <ion-label routerLink="/settings"> Settings </ion-label>
+          </ion-item>
+        </ion-menu-toggle>
+        <ion-menu-toggle>
+          <ion-item color="primary">
+            <ion-icon src="./assets/img/vss-icons/vss-info.svg" slot="start"></ion-icon>
+            <ion-label routerLink="/info"> Info </ion-label>
+          </ion-item>
+        </ion-menu-toggle>
+      </ion-list>
+    </ion-content>
+  </ion-menu>
+  <ion-router-outlet main></ion-router-outlet>
 </ion-app>

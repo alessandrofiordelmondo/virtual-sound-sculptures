@@ -1,0 +1,63 @@
+<ion-header>
+  <ion-toolbar color="primary" >
+    <ion-buttons slot="start">
+      <ion-back-button [defaultHref]="['/home']" icon="../assets/img/vss-icons/vss-arrow.svg">
+      </ion-back-button>
+    </ion-buttons>
+    <ion-title>Settings</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item color ="secondary"  button="true" (click)="headSizeSetting()"> 
+      <ion-icon src="../assets/img/vss-icons/vss-hsize.svg" slot="start"></ion-icon>
+      <ion-label>Head Size</ion-label>
+    </ion-item>
+    <ion-item *ngIf="headseizeview" class="ion-no-margin">
+      <ion-range 
+        min="40" 
+        max="70" 
+        step="1" 
+        snaps="true" 
+        ticks="false" 
+        color="secondary"
+        [(ngModel)]="headcircumference"
+        (ngModelChange)="setHeadSize()"
+        >
+        <ion-label slot="start" color="secondary"> Circumference </ion-label>
+        <ion-label slot="end" clor="secondary"> {{headcircumference}} cm </ion-label>
+      </ion-range>
+    </ion-item>
+    <ion-item color ="secondary" button="true" (click)="motiontrackingsettings()"> 
+      <ion-icon src="../assets/img/vss-icons/vss-tracking.svg" slot="start"></ion-icon>
+      <ion-label>Motion Trackling </ion-label>
+    </ion-item>
+    <ion-item *ngIf="motiontrackingview" class="ion-no-margin">
+      <ion-range 
+        min="40" 
+        max="140" 
+        step="10" 
+        snaps="true" 
+        ticks="false" 
+        color="secondary"
+        [(ngModel)]="stepSize"
+        (ngModelChange)="setStepSize()">
+        <ion-label slot="start" color="secondary"> Step Size </ion-label>
+        <ion-label slot="end" clor="secondary"> {{stepSize}} </ion-label>
+      </ion-range>
+    </ion-item>
+    <ion-item *ngIf="motiontrackingview" class="ion-no-margin">
+      <ion-range 
+        min="0" 
+        max="100" 
+        color="secondary"
+        [(ngModel)]="sensibility"
+        (ngModelChange)="setSensibility()">
+        <ion-label slot="start" color="secondary"> Sensibility </ion-label>
+        <ion-label slot="end" clor="secondary"> {{sensibility}} % </ion-label>
+      </ion-range>
+    </ion-item>
+
+  </ion-list>
+</ion-content>

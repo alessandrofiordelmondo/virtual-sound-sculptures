@@ -1,0 +1,17 @@
+<ion-card color="secondary">
+  <div #map style="position:relative; height:200px;"></div>
+  <ion-card-header>
+    <ion-card-title color="primary"><h1> {{sculpture.name}} </h1> </ion-card-title>
+  </ion-card-header>
+
+    <ion-card-content>
+      {{sculpture.description}}
+
+      <div class="add">
+        <p> <i>around</i>: <b>{{address}} </b> </p>
+        <p> <i>in</i>: <b> {{place}} </b></p>
+      </div>
+    </ion-card-content>
+
+
+</ion-card>
