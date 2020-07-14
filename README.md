@@ -10,7 +10,14 @@ The application is based on two essential elements: the audience (mobile app use
 The application is realized with [Ionic](https://ionicframework.com/) and [Capacitor](https://capacitorjs.com/). The audio core is realized with _Web Audio API_.
 
 ## _Vertical Music_ - previous works
-- _Music Verticale_ - music album (2016) - [https://musicaverticale.bandcamp.com/releases](https://musicaverticale.bandcamp.com/releases)
-- _Moment V_ web installation (2017) - :no_entry_sign: ```diff - *unavailable domain*```
+- _Musica Verticale_ - music album (2016) - [https://musicaverticale.bandcamp.com/releases](https://musicaverticale.bandcamp.com/releases)
+- _Moment V_ - web installation (2017) - :no_entry_sign: *unavailable domain*
 
 Bechelor Thesis regarding _Moment V_ realization.
+
+## _Internet Music_
+Can _Virtual Sound Sculptures_ be defined as _Internet Artwork_?
+[About the music in the Internet Art]() - paper 2020
+
+
+
