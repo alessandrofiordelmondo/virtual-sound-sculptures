@@ -7,4 +7,4 @@ This work is presented in a mobile application through which the user accesses t
 
 The application is based on two essential elements: the audience (mobile app users) and the sound sculpture, while the core of the mobile application is the system of interaction between them. The audience explores the virtual sound space through a pair of headphones. Thanks to a position tracking system every user is described by a couple of coordinates and a direction in the virtual space. Each artwork consists of several sounds, layers of a musical sculpture distributed in the virtual space (with as many as the coordinates point by which is described). Then, the application provides a 3D audio system with which the user can do a complete 360-degrees experience.
 
-The application is realized with _Ionic_ and _Capacitor_. The audio core is realized with _Web Audio API_.
+The application is realized with [Ionic](https://ionicframework.com/) and [Capacitor](https://capacitorjs.com/). The audio core is realized with _Web Audio API_.
