@@ -8,3 +8,9 @@ This work is presented in a mobile application through which the user accesses t
 The application is based on two essential elements: the audience (mobile app users) and the sound sculpture, while the core of the mobile application is the system of interaction between them. The audience explores the virtual sound space through a pair of headphones. Thanks to a position tracking system every user is described by a couple of coordinates and a direction in the virtual space. Each artwork consists of several sounds, layers of a musical sculpture distributed in the virtual space (with as many as the coordinates point by which is described). Then, the application provides a 3D audio system with which the user can do a complete 360-degrees experience.
 
 The application is realized with [Ionic](https://ionicframework.com/) and [Capacitor](https://capacitorjs.com/). The audio core is realized with _Web Audio API_.
+
+## _Vertical Music_ - previous works
+- _Music Verticale_ - music album (2016) - [https://musicaverticale.bandcamp.com/releases](https://musicaverticale.bandcamp.com/releases)
+- _Moment V_ web installation (2017) - :no_entry_sign: ```diff - *unavailable domain*```
+
+Bechelor Thesis regarding _Moment V_ realization.
