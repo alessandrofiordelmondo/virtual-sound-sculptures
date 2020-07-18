@@ -13,11 +13,13 @@ The application is realized with [Ionic](https://ionicframework.com/) and [Capac
 - _Musica Verticale_ - music album (2016) - [https://musicaverticale.bandcamp.com/releases](https://musicaverticale.bandcamp.com/releases)
 - _Moment V_ - web installation (2017) - :no_entry_sign: *unavailable domain*
 
-Bechelor Thesis regarding _Moment V_ realization: [Moment v & la musica verticale di Jonathan D.Kramer](https://github.com/alessandrofiordelmondo/virtual-sound-sculptures/blob/master/text/Moment%20v%20%26%20la%20musica%20verticale%20di%20Jonathan%20D.Kramer.pdf)(2017)
+Bechelor Thesis regarding _Moment V_ realization: [Moment v & la musica verticale di Jonathan D.Kramer](https://github.com/alessandrofiordelmondo/virtual-sound-sculptures/blob/master/text/Moment%20v%20%26%20la%20musica%20verticale%20di%20Jonathan%20D.Kramer.pdf) (2017)
 
 ## _About the Internet Music_
 
 [About the music in the Internet Art](https://github.com/alessandrofiordelmondo/virtual-sound-sculptures/blob/master/text/About%20the%20music%20in%20the%20Internet%20Art.pdf) - paper 2020
+
+
 
 
 
