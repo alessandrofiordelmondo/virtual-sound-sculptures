@@ -15,8 +15,8 @@ The application is realized with [Ionic](https://ionicframework.com/) and [Capac
 
 Bechelor Thesis regarding _Moment V_ realization.
 
-## _Internet Music_
-Can _Virtual Sound Sculptures_ be defined as _Internet Artwork_?
+## _About the Internet Music_
+
 [About the music in the Internet Art](https://github.com/alessandrofiordelmondo/virtual-sound-sculptures/blob/master/text/About%20the%20music%20in%20the%20Internet%20Art.pdf) - paper 2020
 
 
