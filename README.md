@@ -32,7 +32,8 @@ And a CPU usage analysis:\
 ![Quasi-Specific HRTF Algorithm CPU usage](/img/cpuhrtf.png)\
 ![General HRTF Algorithm CPU usage](/img/cpuwaa.png)\
 \
-The core of the Application's sound generator is a _Granular Synthesis_. The starting algorithm from which the sound generator is made can be found in the following GitHub Link [Granular](https://github.com/alessandrofiordelmondo/Granular-WAA) 
+The core of the Application's sound generator is a _Granular Synthesis_. The starting algorithm from which the sound generator is made can be found in the following GitHub Link [Granular](https://github.com/alessandrofiordelmondo/Granular-WAA)\ 
 \
 The realization of the _Pedometer System_ is based on the Sébastien Ménigot's algorithm [link](http://sebastien.menigot.free.fr/pedometer_explanations.html)\
+\
 
