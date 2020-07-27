@@ -19,7 +19,10 @@ Bechelor Thesis regarding _Moment V_ realization: [Moment v & la musica vertical
 
 [About the music in the Internet Art](https://github.com/alessandrofiordelmondo/virtual-sound-sculptures/blob/master/text/About%20the%20music%20in%20the%20Internet%20Art.pdf) - paper 2020
 
-
-
+## Other Related Links
+In the application a Duplex Algorithm has been used. During the development other algorithms have been tested, such as the _Quesi-Specific HRTF Algorithm_ and the _General HRTF Algorithm_. The last one refers to the Web Audio API's `PannerNode` in `'HRTF'` modality. In the _Quasi-Secif HRTF Algorithm_ an algorithm for HRTF usage has been developed. An example of this algorithm can be seen ion the following GitHub Link [Binaural with HRTF](https://github.com/alessandrofiordelmondo/Binaural-WAA).\
+\
+The choice of using the _Duplex Algorithm_ has been done through a Listening test:
+[Listening Test Web Link](https://test-audio-database.firebaseapp.com/test)
 
 
