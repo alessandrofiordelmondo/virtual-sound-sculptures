@@ -24,12 +24,16 @@ In the application a Duplex Algorithm has been used. During the development othe
 \
 The choice of using the _Duplex Algorithm_ has been done through a Listening test:\
 [Listening Test Web Link](https://test-audio-database.firebaseapp.com/test)\
+*Listenign test Results*
 ![Listening Test Results](/img/test-result.png)\
 \
 And a CPU usage analysis:\
 \
+*Duplex Algorithm CPU usage*
 ![Duplex Algorithm CPU usage](/img/cpuduplex.png)\
+*Quasi-Specific HRTF Algorithm CPU usage*
 ![Quasi-Specific HRTF Algorithm CPU usage](/img/cpuhrtf.png)\
+*General HRTF Algorithm CPU usage*
 ![General HRTF Algorithm CPU usage](/img/cpuwaa.png)\
 \
 The core of the Application's sound generator is a _Granular Synthesis_. The starting algorithm from which the sound generator is made can be found in the following GitHub Link [Granular](https://github.com/alessandrofiordelmondo/Granular-WAA)\ 
