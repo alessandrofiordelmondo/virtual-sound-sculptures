@@ -26,7 +26,7 @@ The choice of using the _Duplex Algorithm_ has been done through a Listening tes
 [Listening Test Web Link](https://test-audio-database.firebaseapp.com/test)<br>
 **Listenign test Results**<br>
 ![Listening Test Results](/img/test-result.png)<br>
-\
+<br>
 And a CPU usage analysis:<br>
 <br>
 **Duplex Algorithm CPU usage**<br>
@@ -49,5 +49,6 @@ The application is only for Android. It was tested in _Lenovo K10 note_ model:`L
 - `RAM`: 6 GB
 - `Android version`: 9<br>
 <br>
-A simulation of the application based on the web is provided at the following link: [https://gallery-audio-database.firebaseapp.com/home](https://gallery-audio-database.firebaseapp.com/home);
+A simulation of the application based on the web is provided at the following link:<br>
+[Virtual Sound Sculptures SIMULATION](https://gallery-audio-database.firebaseapp.com/home)
  
