@@ -23,21 +23,30 @@ Bechelor Thesis regarding _Moment V_ realization: [Moment v & la musica vertical
 In the application a Duplex Algorithm has been used. During the development other algorithms have been tested, such as the _Quesi-Specific HRTF Algorithm_ and the _General HRTF Algorithm_. The last one refers to the Web Audio API's `PannerNode` in `'HRTF'` modality. In the _Quasi-Secif HRTF Algorithm_ an algorithm for HRTF usage has been developed. An example of this algorithm can be seen ion the following GitHub Link [Binaural with HRTF](https://github.com/alessandrofiordelmondo/Binaural-WAA).\
 \
 The choice of using the _Duplex Algorithm_ has been done through a Listening test:\
-[Listening Test Web Link](https://test-audio-database.firebaseapp.com/test)\
-*Listenign test Results*
+[Listening Test Web Link](https://test-audio-database.firebaseapp.com/test)\\
+**Listenign test Results**\\
 ![Listening Test Results](/img/test-result.png)\
 \
 And a CPU usage analysis:\
 \
-*Duplex Algorithm CPU usage*
+**Duplex Algorithm CPU usage**\\
 ![Duplex Algorithm CPU usage](/img/cpuduplex.png)\
-*Quasi-Specific HRTF Algorithm CPU usage*
+**Quasi-Specific HRTF Algorithm CPU usage**\\
 ![Quasi-Specific HRTF Algorithm CPU usage](/img/cpuhrtf.png)\
-*General HRTF Algorithm CPU usage*
+**General HRTF Algorithm CPU usage**\\
 ![General HRTF Algorithm CPU usage](/img/cpuwaa.png)\
 \
 The core of the Application's sound generator is a _Granular Synthesis_. The starting algorithm from which the sound generator is made can be found in the following GitHub Link [Granular](https://github.com/alessandrofiordelmondo/Granular-WAA)\ 
 \
 The realization of the _Pedometer System_ is based on the Sébastien Ménigot's algorithm [link](http://sebastien.menigot.free.fr/pedometer_explanations.html)\
 \
-
+## **APPLICATION**
+[Virtual Sound Sculpture][]\\
+The application is only for Android. It was tested in _Lenovo K10 note_ model:`L38111`
+**Technical Details**\\
+- `CPU`: Octa-core 2.20 GHz
+- `RAM`: 6 GB
+- 'Android version': 9
+\\
+A simulation of the application based on the web is provided at the following link: [https://gallery-audio-database.firebaseapp.com/home](https://gallery-audio-database.firebaseapp.com/home);
+ 
