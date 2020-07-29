@@ -41,12 +41,11 @@ The core of the Application's sound generator is a _Granular Synthesis_. The sta
 The realization of the _Pedometer System_ is based on the Sébastien Ménigot's algorithm [link](http://sebastien.menigot.free.fr/pedometer_explanations.html)\
 \
 ## **APPLICATION**
-[Virtual Sound Sculpture][]\\
+[Virtual Sound Sculpture][https://github.com/alessandrofiordelmondo/virtual-sound-sculptures/tree/master/app/release]<br>
 The application is only for Android. It was tested in _Lenovo K10 note_ model:`L38111`
-**Technical Details**\\
+**Technical Details**<br>
 - `CPU`: Octa-core 2.20 GHz
 - `RAM`: 6 GB
-- 'Android version': 9
-\\
+- 'Android version': 9<br>
 A simulation of the application based on the web is provided at the following link: [https://gallery-audio-database.firebaseapp.com/home](https://gallery-audio-database.firebaseapp.com/home);
  
